@@ -324,15 +324,13 @@ ol {
 
 .header__logo {
 	padding: 0px;
-	max-width: 75px; /* Đặt chiều rộng tối đa cho hình ảnh */
+	max-width: 100px; /* Đặt chiều rộng tối đa cho hình ảnh */
     max-height: 75px; /* Đặt chiều cao tối đa cho hình ảnh */
     width: auto; /* Đảm bảo chiều rộng tự động điều chỉnh */
     height: auto; /* Đảm bảo tỷ lệ hình ảnh không bị méo */
+
 }
 
-.header__logo a {
-	display: inline-block;
-}
 
 .header__menu {
 	padding: 40px 0 27px;

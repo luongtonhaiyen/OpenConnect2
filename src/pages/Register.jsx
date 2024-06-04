@@ -8,41 +8,41 @@ const Register = () => {
             <div className="container my-3 py-3"style={{ backgroundColor: '#f0f9ff' }}>
                 <h1 className="text-center">Đăng ký</h1>
                 <hr />
-                <div class="row my-4 h-100">
+                <div className="row my-4 h-100">
                     <div className="col-md-4 col-lg-4 col-sm-8 mx-auto">
                         <form>
-                            <div class="form my-3">
+                            <div className="form my-3">
                                 <label for="Name">Họ và tên</label>
                                 <input
                                     type="email"
-                                    class="form-control"
+                                    className="form-control"
                                     id="Name"
                                     placeholder="Enter Your Name"
                                 />
                             </div>
-                            <div class="form my-3">
+                            <div className="form my-3">
                                 <label for="Email">Email</label>
                                 <input
                                     type="email"
-                                    class="form-control"
+                                    className="form-control"
                                     id="Email"
                                     placeholder="name@example.com"
                                 />
                             </div>
-                            <div class="form  my-3">
+                            <div className="form  my-3">
                                 <label for="Password">Số Điện thoại</label>
                                 <input
                                     type="password"
-                                    class="form-control"
+                                    className="form-control"
                                     id="Password"
                                     placeholder="Password"
                                 />
                                 </div>
-                                <div class="form  my-3">
+                                <div className="form  my-3">
                                 <label for="Password">Mật khẩu</label>
                                 <input
                                     type="password"
-                                    class="form-control"
+                                    className="form-control"
                                     id="Password"
                                     placeholder="Password"
                                 />
@@ -51,7 +51,7 @@ const Register = () => {
                                 <p>Bạn đã có tài khoản ? <Link to="/login" className="text-decoration-underline text-info">Login</Link> </p>
                             </div>
                             <div className="text-center">
-                                <button class="my-2 mx-auto btn btn-primary" type="submit" disabled>
+                                <button className="my-2 mx-auto btn btn-primary" type="submit" disabled>
                                   Đăng ký
                                 </button>
                             </div>

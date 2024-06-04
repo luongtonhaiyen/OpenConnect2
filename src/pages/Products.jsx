@@ -4,7 +4,7 @@ import { Footer, Header, Product } from "../components"
 const Products = () => {
   return (
     <>
-      <Header />
+      <Header/>
       <Product />
       <Footer />
     </>
