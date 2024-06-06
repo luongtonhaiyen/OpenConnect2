@@ -5,6 +5,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/store';
@@ -12,7 +13,8 @@ import store from './redux/store';
 
 
 
-import { Home, Product, Products, AboutPage, ContactPage, Cart, Login, Register, Checkout, PageNotFound } from "./pages"
+import { Home, Product, Products, AboutPage, ContactPage, Cart, Login, Register, Checkout, PageNotFound, MyProfile, History } from "./pages"
+import UpdateProfile from './pages/UpdateProfile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,6 +32,9 @@ root.render(
         <Route path="/checkout" element={<Checkout />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="/product/*" element={<PageNotFound />} />
+        <Route path="/myprofile" element={<MyProfile />} />
+        <Route path="/myhistory" element={<History />} />
+        <Route path="/updateprofile" element={<UpdateProfile />} />
       </Routes>
     </Provider>
   </BrowserRouter>

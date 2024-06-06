@@ -112,12 +112,12 @@ export default function Header() {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <Link className="dropdown-item" to="#">
+                      <Link className="dropdown-item" to="/myprofile">
                         My profile
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="#">
+                      <Link className="dropdown-item" to="/myhistory">
                         History
                       </Link>
                     </li>
