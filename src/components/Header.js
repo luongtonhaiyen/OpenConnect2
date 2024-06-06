@@ -8,9 +8,7 @@ export default function Header() {
         <div className="row">
           <div className="col-xl-3 col-lg-2">
             <div className="header__logo">
-              
-                <img src="/img/open.png" alt="logo" />
-            
+              <img src="/img/open.png" alt="logo" />
             </div>
           </div>
           <div className="col-xl-6 col-lg-7">
@@ -31,23 +29,23 @@ export default function Header() {
                     History
                   </Link>
                 </li>
-                <li>
-                  <Link to="#" className="nav-link">
+                <li className="dropdown">
+                  <Link to="#" className="nav-link dropdown-toggle" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Pages
                   </Link>
-                  <ul className="dropdown">
+                  <ul className="dropdown-menu" aria-labelledby="pagesDropdown">
                     <li>
-                      <Link to="/product-details" className="nav-link">
+                      <Link to="/product-details" className="dropdown-item">
                         Workshop Details
                       </Link>
                     </li>
                     <li>
-                      <Link to="/Cart" className="nav-link">
+                      <Link to="/Cart" className="dropdown-item">
                         Booking Tickets
                       </Link>
                     </li>
                     <li>
-                      <Link to="/Checkout" className="nav-link">
+                      <Link to="/Checkout" className="dropdown-item">
                         Checkout
                       </Link>
                     </li>
@@ -87,10 +85,48 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="./Cart" className="nav-link">
+                  <Link to="/Cart" className="nav-link">
                     <span className="icon_bag_alt"></span>
                     <div className="tip">2</div>
                   </Link>
+                </li>
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle d-flex align-items-center"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp"
+                      className="rounded-circle"
+                      height="22"
+                      alt="Avatar"
+                      loading="lazy"
+                    />
+                  </a>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <Link className="dropdown-item" to="#">
+                        My profile
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="#">
+                        History
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="#">
+                        Logout
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
