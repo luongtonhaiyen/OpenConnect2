@@ -6,36 +6,37 @@ export default function Discount(){
     <div className="container">
         <div className="row">
             <div className="col-lg-6 p-0">
-                <div className="discount__pic">
-                    <img src="img/discount.jpg" alt=""/>
+                <div className="discount__pic ">
+                    <img src="/img/listworkshop.jpg" alt=""/>
                 </div>
             </div>
             <div className="col-lg-6 p-0">
                 <div className="discount__text">
                     <div className="discount__text__title">
-                        <span>Discount</span>
-                        <h2>Summer 2019</h2>
-                        <h5><span>Sale</span> 50%</h5>
+                        <span>WORKSHOP</span>
+                        <h2>HOT 2024</h2>
+                        <h5>Tháng 6</h5>
+                   
                     </div>
                     <div className="discount__countdown" id="countdown-time">
                         <div className="countdown__item">
-                            <span>22</span>
-                            <p>Days</p>
+                            <span>8</span>
+                            <p>Workshops</p>
                         </div>
                         <div className="countdown__item">
-                            <span>18</span>
-                            <p>Hour</p>
+                            <span>9</span>
+                            <p>Giờ</p>
                         </div>
                         <div className="countdown__item">
-                            <span>46</span>
-                            <p>Min</p>
+                            <span>15</span>
+                            <p>Giờ</p>
                         </div>
                         <div className="countdown__item">
-                            <span>05</span>
-                            <p>Sec</p>
+                            <span>2</span>
+                            <p>Tiếng</p>
                         </div>
                     </div>
-                    <Link to="#" className="nav-link">Shop now</Link>
+                    <Link to="#" className="nav-link">Book now</Link>
                     
                 </div>
             </div>

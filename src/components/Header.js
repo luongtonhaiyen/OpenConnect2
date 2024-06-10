@@ -11,7 +11,7 @@ export default function Header() {
               <img src="/img/open.png" alt="logo" />
             </div>
           </div>
-          <div className="col-xl-6 col-lg-7">
+          <div className="col-xl-5 col-lg-4">
             <nav className="header__menu">
               <ul>
                 <li>
@@ -24,12 +24,12 @@ export default function Header() {
                     Workshop
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/shop" className="nav-link">
                     History
                   </Link>
-                </li>
-                <li className="dropdown">
+                </li> */}
+                {/* <li className="dropdown">
                   <Link to="#" className="nav-link dropdown-toggle" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Pages
                   </Link>
@@ -50,7 +50,7 @@ export default function Header() {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <Link to="/About" className="nav-link">
                     About Us
@@ -64,7 +64,23 @@ export default function Header() {
               </ul>
             </nav>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-2 ">
+            <div className="search">
+            <div className="input-group rounded">
+              <input
+                type="search"
+                className="form-control rounded"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="search-addon"
+              />
+              <span className="input-group-text border-0" id="search-addon" style={{ height: "38px" }}>
+                <i className="fas fa-search"></i>
+              </span>
+            </div>
+          </div>
+          </div>
+          <div className="col-lg-2">
             <div className="header__right">
               <div className="header__right__auth">
                 <Link to="/Login" className="nav-link">
@@ -75,9 +91,9 @@ export default function Header() {
                 </Link>
               </div>
               <ul className="header__right__widget">
-                <li>
+                {/* <li>
                   <span className="icon_search search-switch"></span>
-                </li>
+                </li> */}
                 <li>
                   <Link to="#" className="nav-link">
                     <span className="icon_heart_alt"></span>

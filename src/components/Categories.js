@@ -22,7 +22,7 @@ export default function Categories() {
         <div className="row">
           <div className="col-lg-6 p-0">
             <div
-              className="categories__item categories__large__item set-bg"
+              className="categories__item categories__large__item set-bg" 
               data-setbg="/img/categories/1.jpg"
             >
               <div className="categories__text">
@@ -46,7 +46,7 @@ export default function Categories() {
                 >
                   <div className="categories__text">
                     <h4>Cắm Hoa</h4>
-                    <p>358 items</p>
+                    {/* <p>358 items</p> */}
                     <Link to="#" className="nav-link">Book now</Link>
 
                   </div>
@@ -59,7 +59,7 @@ export default function Categories() {
                 >
                   <div className="categories__text">
                     <h4>Làm Bánh</h4>
-                    <p>273 items</p>
+                    {/* <p>273 items</p> */}
                     <Link to="#" className="nav-link">Book now</Link>
                   </div>
                 </div>
@@ -71,7 +71,7 @@ export default function Categories() {
                 >
                   <div className="categories__text">
                     <h4>Vẽ Tranh</h4>
-                    <p>159 items</p>
+                    {/* <p>159 items</p> */}
                     <Link to="#" className="nav-link">Book now</Link>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ export default function Categories() {
                 >
                   <div className="categories__text">
                     <h4>Làm Gốm</h4>
-                    <p>792 items</p>
+                    {/* <p>792 items</p> */}
                     <Link to="#" className="nav-link">Book now</Link>
 
                   </div>

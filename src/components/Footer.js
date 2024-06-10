@@ -8,8 +8,7 @@ export default function Footer(){
                         <div className="footer__logo">
                             <a href="./index.html"><img src="img/logo.png" alt=""/></a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        cilisis.</p>
+                        {/* <p></p> */}
                         <div className="footer__payment">
                             <a href="#"><img src="img/payment/payment-1.png" alt=""/></a>
                             <a href="#"><img src="img/payment/payment-2.png" alt=""/></a>
@@ -58,7 +57,7 @@ export default function Footer(){
                     </div>
                 </div>
             </div>
-            <div className="row">
+            {/* <div className="row">
                 <div className="col-lg-12">
                
                     <div className="footer__copyright__text">
@@ -66,7 +65,7 @@ export default function Footer(){
                     </div>
                     
                 </div>
-            </div>
+            </div> */}
         </div>
     </footer> 
     );
