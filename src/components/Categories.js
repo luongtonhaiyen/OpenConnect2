@@ -25,7 +25,7 @@ export default function Categories() {
               className="categories__item categories__large__item set-bg" 
               data-setbg="/img/categories/1.jpg"
             >
-              <div className="categories__text">
+              <div className="categories__text_1">
                 <h1>Làm Nến Thơm</h1>
                 <p>
                   Một workshop làm nến thơm cung cấp cơ hội học hỏi và thực hành
