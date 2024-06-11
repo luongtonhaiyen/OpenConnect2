@@ -6,7 +6,7 @@ export default function Footer(){
                 <div className="col-lg-4 col-md-6 col-sm-7">
                     <div className="footer__about">
                         <div className="footer__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""/></a>
+                            {/* <a href="./index.html"><img src="img/logo.png" alt=""/></a> */}
                         </div>
                         {/* <p></p> */}
                         <div className="footer__payment">

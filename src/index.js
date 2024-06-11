@@ -3,18 +3,11 @@ import ReactDOM from 'react-dom/client';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-
-
-
-
-import { Home, Product, Products, AboutPage, ContactPage, Cart, Login, Register, Checkout, PageNotFound, MyProfile, History } from "./pages"
-import UpdateProfile from './pages/UpdateProfile';
+import { Home, Product, Products, AboutPage, ContactPage, Cart, Login, Register, Checkout, PageNotFound, MyProfile, History, UpdateProfile } from './pages';
+import { Account, ManageWs, ManageCompany, Transaction, Admin, DashBoard } from './pages';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,10 +24,15 @@ root.render(
         <Route path="/register" element={<Register />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="*" element={<PageNotFound />} />
-        <Route path="/product/*" element={<PageNotFound />} />
         <Route path="/myprofile" element={<MyProfile />} />
         <Route path="/myhistory" element={<History />} />
         <Route path="/updateprofile" element={<UpdateProfile />} />
+        <Route path="/admin" element={<Admin />} />
+        <Route path="/dashboard" element={<DashBoard />} />
+        <Route path="/account" element={<Account />} />
+        <Route path="/manageCompany" element={<ManageCompany />} />
+        <Route path="/manageWs" element={<ManageWs />} />
+        <Route path="/transaction" element={<Transaction />} />
       </Routes>
     </Provider>
   </BrowserRouter>
